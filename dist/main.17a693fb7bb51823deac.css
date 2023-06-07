@@ -1,0 +1,351 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;font-family:Segoe-UI}.container{width:100%;margin:0 auto;max-width:1300px}a,a:hover,a:active,a:visited{text-decoration:none}.main-button{width:240px;height:46px;color:#fff;display:flex;justify-content:center;align-items:center;background:#2dac68;box-shadow:0px 8px 10px rgba(45,172,104,.14);border-radius:14px;border:none;cursor:pointer}.main-title{color:#2dac68;font-size:42px;text-align:center}.header__content{display:flex;justify-content:space-between;align-items:center;padding:17px 0}.header__tools{display:flex;justify-content:center;align-items:center}.header__languages{display:flex;gap:6px}.header__languages span{color:silver;font-size:13px;text-transform:uppercase;display:block}.header__languages .active{color:#000}.header__social-network{margin:0 20px}.header__logo{margin-right:138px}.header__info{display:flex;align-items:center}.header__contacts{display:flex;align-items:center;gap:12px}.header__numbers{display:flex;flex-direction:column;gap:6px}.header__number{display:block;color:#000}.header__button{padding:14px 41px;color:#fff;background:#2dac68;box-shadow:0px 8px 10px rgba(45,172,104,.14);border-radius:14px;margin-left:20px;border:none;cursor:pointer}.network__icon{width:31px;display:inline-block;height:31px}.network__icon_you-tube{background-image:url(assets/icon__you-tube.png);background-size:100% 100%;background-repeat:no-repeat}.network__icon_inst{background-image:url(assets/icon__facebook.png);background-size:100% 100%;background-repeat:no-repeat}.network__icon_facebook{background-image:url(assets/icon__inst.png);background-size:100% 100%;background-repeat:no-repeat}.search form{width:247px;height:46px;background:#f6f6f6;border-radius:14px;display:flex;padding-left:21px}.search__input{width:180px;margin-right:12px;height:46px;background:#f6f6f6;border:none}.search__input.focus-visible{outline:none}.search__input:focus-visible{outline:none}.search__input::-webkit-input-placeholder{color:silver}.search__input::placeholder{color:silver}.search__icon{border:none;background:none;cursor:pointer}.navigation{padding:15px 0;background:#272727}.navigation__list{align-items:center;display:flex;justify-content:space-between;align-items:center;list-style-type:none}.navigation__link{color:#fff;display:block}.navigation__link_tools::after{content:"";border:solid #fff;border-width:0 2px 2px 0;display:inline-block;padding:3px;transform:rotate(45deg);-webkit-transform:rotate(45deg);position:relative;top:-2px;margin-left:3px}.prewiew{padding:50px 0}.prewiew__body{display:flex;flex-direction:column;justify-content:center;gap:37px;height:541px;background-image:url(assets/bg-slider_1.png);background-size:cover;padding-left:60px}.prewiew__title{font-family:SofiaSans-900;font-size:46px;color:#fff;width:570px}.slider{z-index:9;width:100%;overflow:hidden;position:relative;margin:0 auto}.slider__content{width:9999px}.slider__item{display:flex;flex-direction:column;float:left;width:1300px;height:541px}.slider .nav{margin-top:10px;position:absolute;left:50%;-webkit-transform:translate(-50%, 0);transform:translate(-50%, 0);bottom:0px;width:48px;display:flex;justify-content:space-between;align-items:center}.slider .nav span{width:8px;height:8px;border-radius:50%;border:none;cursor:pointer;overflow:hidden;display:block;float:left;background:#f0f0f0}.slider .nav span.on{background:#1d1d1d;width:8px;height:8px}.proposition{padding-bottom:136px;padding-top:50px}.proposition__body{display:flex;justify-content:center;gap:1px;padding:1px 0;margin:42px 0 32px 0}.proposition__item{background:#fff;padding:20px 0;border:1px solid #f6f6f6;border-right:none;border-collapse:collapse;width:16.58%}.proposition__item img{max-width:100%}.proposition__item:last-child{border-right:1px solid #f6f6f6}.proposition__suptitle{font-size:15px;font-family:Segoe-UI_700;padding:0 25px}.proposition__info{color:#1d1d1d;padding:0 24px;font-size:13px}.proposition__button{margin:0 auto}.cultures{background:#272727;padding:90px 0}.cultures__title{color:#fff}.cultures__body{display:flex;justify-content:space-between;margin-top:42px;margin-bottom:32px}.cultures__item{display:block;width:15.4%;justify-content:space-between;line-height:0}.cultures__img{width:100%}.cultures__info{background:#8ec642;display:flex;justify-content:space-between;padding:3px 3px 3px 10px;align-items:center}.cultures__suptitle{color:#fff;font-size:15px;font-family:Segoe-UI_700;margin:0}.cultures__button{margin:0 auto}.information{padding-top:161px}.about-company{display:flex;align-items:center}.about-company__img{width:48%}.about-company__content{width:52%}.about-company__title{font-size:32px;font-family:Segoe-UI_700;color:#2dac68}.about-company__info{font-size:15px;margin:24px 0 32px 0}.catalog{padding:180px 0}.catalog__item{display:flex;padding:84px 0;border-bottom:1px solid #2dac68}.catalog__item_even{flex-direction:row-reverse}.catalog__item_first{border-bottom:1px solid #2dac68}.catalog__item_first .catalog__button{background:#2dac68}.catalog__item_second{border-bottom:1px solid #2893aa}.catalog__item_second .catalog__button{background:#2893aa}.catalog__item_third{border-bottom:1px solid #455b66}.catalog__item_third .catalog__button{background:#455b66}.catalog__item_fourth{border-bottom:1px solid #2b74b9}.catalog__item_fourth .catalog__button{background:#2b74b9}.catalog__item_fifth{border-bottom:1px solid #1a6a3c}.catalog__item_fifth .catalog__button{background:#1a6a3c}.catalog__item_sixth{border-bottom:1px solid #bf135d}.catalog__item_sixth .catalog__button{background:#bf135d}.catalog__suptitle{font-size:22px;font-family:Segoe-UI_700}.catalog__info{font-size:15px;margin:22px 0 67px 0;width:506px}.catalog__button{width:276px;height:46px;display:flex;justify-content:space-between;background:#2dac68;box-shadow:0px 8px 10px rgba(45,172,104,.14);border-radius:14px;border:none;color:#fff;align-items:center;padding:0 21px 0 21px;cursor:pointer}.catalog__arrow{border:solid #fff;border-width:0 2px 2px 0;display:inline-block;padding:3px;transform:rotate(-45deg);-webkit-transform:rotate(-45deg);margin-left:3px}.catalog__content{width:50%;display:flex;justify-content:center}.catalog__media{width:50%;display:flex;justify-content:center}.advances{background:#272727;padding:90px 0}.advances__title{color:#fff}.advances__body{background:#1d1d1d;display:flex;justify-content:space-between;gap:1px;flex-wrap:wrap;margin:42px 0 52px 0}.advances__item{width:33.25%;background:#272727;display:flex;justify-content:center;flex-direction:column;align-items:center;gap:26px;padding:20px 0 67px 0}.advances__suptitle{color:#fff;font-family:Segoe-UI_700;width:225px;text-align:center}.advances__button{margin:0 auto}.products{padding:180px 0}.products__body{display:flex;align-items:center;margin-top:35px}.products__img{width:54%;text-align:center}.products__content{width:46%}.products__info{font-size:15px;margin:0 0 32px 0}.main-control{display:flex;justify-content:center;gap:20px}.main-control__arrow{border:solid #000;border-width:0 2px 2px 0;display:inline-block;padding:8px}.main-control__arrow_left{transform:rotate(135deg);-webkit-transform:rotate(135deg)}.main-control__arrow_right{transform:rotate(-45deg);-webkit-transform:rotate(-45deg)}.partners__body{display:flex;justify-content:center;margin:42px 0 32px 0}.partners__item{display:flex;align-items:center;justify-content:center;padding:20px;border:1px solid #f6f6f6;border-right:none;border-collapse:collapse;width:16.58%;height:217px}.partners__item img{max-width:100%}.partners__item:last-child{border-right:1px solid #f6f6f6}.news{padding:180px 0}.news__body{display:flex;justify-content:space-between;margin-bottom:30px}.news__item{width:24%}.news__date{display:block;font-size:13px;margin-top:12px;color:#00662c}.news__switch{display:flex;gap:16px;justify-content:center;margin:43px 0 16px 0}.news__button{width:98px;height:31px;display:flex;justify-content:center;align-items:center;background:#f7f7f7;border:1px solid #f0f0f0;border-radius:12px;color:#1d1d1d;cursor:pointer}.news__button_active{background:#2dac68;box-shadow:0px 8px 10px rgba(45,172,104,.14);border-radius:11px;color:#fff;border:none}.news__content{display:flex;flex-direction:column;justify-content:space-between}.news__suptitle{font-family:Segoe-UI_700;color:#1d1d1d;margin-bottom:9px;margin-top:3px}.news__info{color:#1d1d1d}.reviews{padding-bottom:190px}.reviews__title{margin-bottom:42px}.reviews__body{display:flex}.reviews__image{width:50%}.reviews__content{width:50%}.reviews__article{font-size:22px;margin-bottom:28px}.reviews__info{display:flex;justify-content:space-between}.reviews__person{display:flex;justify-content:space-between;width:213px;align-items:center}.reviews__name{color:#00662c;margin-bottom:5px;font-size:15px}.reviews__position{font-size:15px}.reviews__adress{font-size:15px;display:flex;align-items:flex-end;color:#9c9c9c}.reviews__button{position:relative;bottom:0;margin-top:102px}.contacts{background:#272727;padding:90px 0}.contacts__body{display:flex}.contacts__content{width:50%}.contacts__info{font-size:32px;color:#fff;margin-top:20px;font-family:Segoe-UI_700;margin-bottom:123px}.contacts__form{display:flex;justify-content:center;width:50%}.contacts__item{width:330px;height:46px;background:#3c3c3c;border-radius:14px;display:flex;padding-left:21px;margin-bottom:12px}.contacts__input{width:268px;margin-right:12px;height:46px;background:#3c3c3c;border:none}.contacts__input.focus-visible{outline:none}.contacts__input:focus-visible{outline:none}.contacts__input::-webkit-input-placeholder{color:silver}.contacts__input::placeholder{color:silver}.contacts__icon{display:flex;align-items:center;border:none;background:none}.contacts__button{width:330px}.network__icon-green{width:31px;display:inline-block;height:31px}.network__icon-green_you-tube{background-image:url(assets/green-icon__you-tube.png);background-size:100% 100%;background-repeat:no-repeat}.network__icon-green_inst{background-image:url(assets/green-icon__facebook.png);background-size:100% 100%;background-repeat:no-repeat}.network__icon-green_facebook{background-image:url(assets/green-icon__inst.png);background-size:100% 100%;background-repeat:no-repeat}.explanation{padding:170px 0}.explanation__body{display:flex}.explanation__content{width:50%;padding-right:60px}.explanation__title{font-family:Segoe-UI_700;font-size:32px;margin-bottom:20px}.footer{padding:70px 0 10px 0;background:#272727}.footer__content{width:40%}.footer__body{display:flex}.footer__item{display:flex;align-items:center;gap:12px;margin-bottom:22px}.footer__logo{margin-bottom:36px;display:inline-block}.footer__numbers{display:flex;flex-direction:column;gap:6px}.footer__article{display:block;color:#fff}.footer__information{display:flex;justify-content:space-between;width:60%}.footer__title{color:#fff;font-family:Segoe-UI_700;margin-bottom:16px}.footer__list{list-style-type:none}.footer__link{margin-bottom:8px}.footer__link a{color:silver}.footer__network{display:flex;flex-direction:column;gap:3px}.utility{display:flex;margin-top:57px}.utility__copyright{color:dimgray;width:40%;font-size:12px}.utility__information{width:60%;display:flex;gap:122px}.utility__information a{color:dimgray;font-size:12px;display:inline-block}.mobile-menu{display:none}.menu__icon{display:none}.mobile-contacts{display:none}@font-face{font-family:Segoe-UI;src:url(assets/SegoeUI.ttf)}@font-face{font-family:Segoe-UI_700;src:url(assets/SegoeUI-Bold.ttf)}@font-face{font-family:Segoe-UI_600;src:url(assets/SegoeUI-SemiBold.ttf)}@font-face{font-family:SofiaSans-900;src:url(assets/SofiaSans-Black.ttf)}@font-face{font-family:Roboto;src:url(assets/Roboto-LightItalic.ttf)}@media screen and (max-width: 1350px){.container{max-width:1110px}.header__logo{margin:0%}.header__button{padding:14px 25px}.slider__item{display:flex;flex-direction:column;float:left;width:1110px;height:541px}.prewiew__body{background-repeat:no-repeat;background-position:center center;background-size:100% 100%}.about-company__content{padding-left:30px}.products{padding:150px 0}.products__img img{width:100%}.news__item img{width:100%}.reviews__button{margin-top:78px}.catalog__media img{width:100%}.contacts__info{margin-bottom:75px}}@media screen and (max-width: 1200px){.container{max-width:960px}.header__numbers{font-size:13px}.header__logo{width:140px}.header__logo img{width:100%}.header__button{font-size:14px}.search form{width:196px;height:38px}.search__input{width:135px;margin-right:12px;height:38px}.search__icon{width:13px}.search__icon img{width:100%}.navigation__link{font-size:14px}.slider__item{width:960px;height:490px}.prewiew__body{height:460px}.prewiew__title{width:520px;font-size:39px}.proposition__body{flex-wrap:wrap;justify-content:center}.proposition__item{text-align:center;width:33%;border:1px solid #f6f6f6}.proposition__item:last-child{border:1px solid #f6f6f6}.proposition__info{margin-top:10px}.about-company__img img{width:100%}.about-company__info{font-size:14px}.information{padding-top:120px}.catalog{padding:120px 0}.catalog__info{width:100%}.products{padding:120px 0}.partners__item{height:154px}.reviews{padding-bottom:120px}.reviews__body{justify-content:space-between}.reviews__image{width:48%}.reviews__image img{width:100%}.reviews__article{font-size:19px}.reviews__button{margin-top:53px}.news{padding:120px 0}.contacts__info{font-size:27px}.explanation{padding:110px 0}.explanation__body{flex-direction:column;gap:30px}.explanation__content{width:100%;padding-right:0}.footer__body{flex-direction:column;gap:30px}.footer__content{width:100%}.footer__information{width:100%}.utility__information{width:100%}}@media screen and (max-width: 996px){.container{max-width:720px}.header__logo{position:absolute;left:50%;top:20px;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.navigation__link{font-size:12px}.header__button{padding:9px 14px;margin-left:15px}.network__icon{width:24px;display:inline-block;height:24px}.header__languages span{font-size:12px}.search form{width:196px;height:30px}.search__input{width:135px;margin-right:12px;height:30px}.search__icon{width:13px}.search__icon img{width:100%}.header__content{margin-top:57px}.prewiew__body{padding-left:17px;height:381px;width:720px;gap:30px}.prewiew__title{width:424px;font-size:28px}.main-button{width:209px;height:38px}.slider__item{width:720px;height:428px}.cultures__body{flex-wrap:wrap;gap:14px}.cultures__item{width:32%}.about-company{flex-wrap:wrap}.about-company__img{width:100%;text-align:center}.about-company__img img{width:auto}.about-company__content{width:100%;padding:0;margin-top:20px}.about-company__title{text-align:center}.about-company__button{margin:0 auto}.advances__body{gap:2px}.advances__item{width:49.8%}.products__body{flex-direction:column}.products__img{width:100%}.products__content{width:100%}.products__button{margin:0 auto}.partners__item{width:24.4%}.item_first-none{display:none}.news__item{width:32.58%}.news__info{font-size:13px}.news__body{flex-wrap:wrap}.reviews__body{flex-wrap:wrap;padding:0 70px}.reviews__image{width:100%;text-align:center}.reviews__content{margin-top:40px;width:100%}.contacts__info{font-size:24px;margin-bottom:104px}.contacts__button{width:330px;height:46px}.utility__copyright{width:36%}.utility__information{width:64%;gap:38px}}@media screen and (max-width: 768px){.container{max-width:540px}.header__social-network{display:none}.navigation{display:none}.header__info{display:none}.search{margin-left:auto}.header__content{position:relative;margin:0}.header__tools{width:100%}.header__logo{width:127px;top:16px;-webkit-transform:translateX(-74%);transform:translateX(-74%)}.prewiew{padding:11px 0}.prewiew__body{height:262px;width:540px}.prewiew__title{width:376px;font-size:23px}.slider__item{width:540px;height:285px}.proposition__item{width:49%}.cultures__item{width:48.6%}.catalog__item{flex-wrap:wrap;flex-direction:column-reverse;padding:55px 0}.catalog__content{width:100%;margin-top:40px}.catalog__media{width:100%}.catalog__info{margin:22px 0 40px 0}.item_second-none{display:none}.news__item{width:48.58%}.main-control__arrow{padding:5px}.proposition{padding-bottom:65px}.cultures{padding:65px 0}.information{padding-top:65px}.catalog{padding:80px 0}.advances{padding:65px 0}.products{padding:80px 0}.news{padding:80px 0}.reviews{padding-bottom:65px}.reviews__body{padding:0}.reviews__button{width:336px;height:46px;margin:0 auto;margin-top:40px}.contacts__body{flex-direction:column;align-items:center}.contacts__content{width:330px;position:relative}.contacts__info{margin:30px 0;font-size:24px}.contacts__network{position:absolute;right:0;top:0}.main-title{font-size:35px}.header._active{position:fixed;width:100%;left:0;top:0;z-index:50;background:#fff}.header__tools{flex-wrap:wrap;z-index:51;justify-content:flex-start}.search{width:100%;margin-top:20px}.search form{width:322px;height:42px;margin:0 auto}.search__input{width:258px;height:42px}.header__logo{right:0;top:10px;left:auto;-webkit-transform:translateX(0);transform:translateX(0);z-index:51}.mobile-menu._active{left:0}.mobile-menu._active::before{content:" ";position:fixed;width:100%;top:0;left:0;height:166px;background-color:#fff}.menu__icon{display:block;background-image:url(assets/burger-menu_icun.png);background-size:100% 100%;background-repeat:no-repeat;width:27px;height:28px;margin-right:15px}.menu__icon._active{background-image:url(assets/burger-menu_close.png)}.mobile-contacts{background:#272727;position:relative;z-index:51;display:block}.mobile-contacts__body{display:flex;align-items:center;justify-content:center;padding:10px 0}.mobile-contacts__icon{margin-right:13px}.mobile-contacts__numbers{display:flex;gap:10px}.mobile-contacts__number{display:inline-block;color:#fff}.mobile-contacts__number:first-child{padding-right:10px;border-right:1px solid #1d1d1d}.mobile-menu{display:block;overflow:auto;position:fixed;top:0;left:-117%;width:100%;height:100%;background:#fff;padding:166px 20px 20px 20px;transition:left .3s ease 0s}.mobile-menu__navigation{margin-top:20px;margin-bottom:30px}.mobile-menu__list{list-style-type:none}.mobile-menu__item{margin-bottom:16px}.mobile-menu__link{color:#1d1d1d;font-size:15px}.mobile-menu__social{display:flex;justify-content:flex-start;margin-top:22px;margin-left:0}.network__icon{width:30px;height:30px}.explanation{padding:80px 0}.explanation__body{gap:40px}.explanation__title{font-size:26px}.explanation__paragraph{line-height:19px}.footer__information{flex-wrap:wrap}.footer__section{width:48%;margin-bottom:40px}.utility{margin-top:0;flex-direction:column-reverse}.utility__information{flex-direction:column;gap:8px;margin-bottom:8px}.utility__copyright{width:100%}}@media screen and (max-width: 576px){.main-button{height:46px;width:100%;margin:0 auto}.prewiew__body{background-image:url(assets/bg-slider_1-mobile.png)}.mobile-menu{display:none}.about-company__img img{width:100%}.container{width:100%;padding-right:19px;padding-left:19px;margin-right:auto;margin-left:auto}.slider__item{width:540px;height:515px}.prewiew__body{width:360px;height:515px;justify-content:flex-start;padding-left:20px;padding-top:20px}.slider{width:360px}.prewiew .container{padding:0}.prewiew__title{width:255px}.prewiew__button{width:240px;margin-left:0}.proposition .container{padding:0}.main-title{font-size:26px}.cultures__item{width:100%;margin:0 auto;display:inline-block}.cultures__img{height:170px;width:100%}.cultures__button{width:100%;margin:0 auto}.proposition__button_cont-mobile{display:block;padding:0 20px}.catalog__button{width:100%;margin:0 auto}.about-company__button{width:100%;margin:0 auto}.advances__item{width:100%}.item_third-none{display:none}.partners__item{width:33%;padding:12px}.partners .container{padding:0}.news__item{width:100%}.reviews__button{margin-top:40px}.advances__body{margin-bottom:10px}.header__tools{flex-wrap:wrap;z-index:51;justify-content:flex-start}.search{width:100%;margin-top:20px}.search form{width:322px;height:42px;margin:0 auto}.search__input{width:258px;height:42px}.header__logo{right:0;top:10px;left:auto;-webkit-transform:translateX(0);transform:translateX(0);z-index:51}.mobile-menu._active{left:0}.mobile-menu._active::before{content:" ";position:fixed;width:100%;top:0;left:0;height:166px;background-color:#fff}.mobile-contacts{background:#272727;position:relative;z-index:51}.mobile-contacts__body{display:flex;align-items:center;justify-content:center;padding:10px 0}.mobile-contacts__icon{margin-right:13px}.mobile-contacts__numbers{display:flex;gap:10px}.mobile-contacts__number{display:inline-block;color:#fff}.mobile-contacts__number:first-child{padding-right:10px;border-right:1px solid #1d1d1d}.mobile-menu{display:block;position:fixed;top:0;left:-117%;width:100%;height:100%;background:#fff;padding:166px 20px 20px 20px;transition:left .3s ease 0s}.mobile-menu__navigation{margin-top:20px;margin-bottom:30px}.mobile-menu__list{list-style-type:none}.mobile-menu__item{margin-bottom:16px}.mobile-menu__link{color:#1d1d1d;font-size:15px}.mobile-menu__social{display:flex;justify-content:center;margin-top:22px}.network__icon{width:30px;height:30px}.footer__information{flex-wrap:wrap;flex-direction:column;height:470px;justify-content:space-between}.footer__section{width:auto;height:235px;margin:0}.footer__link a{font-size:14px}.utility{margin-top:30px}}
